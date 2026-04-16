@@ -1,12 +1,12 @@
 import React from 'react'
-import { assets } from '../../assets/assets'
+
 
 const Header = () => {
     return (
         <>
-            <div className='relative  mt-5 w-full h-[60vh] sm:h-[70vh] md:h-[75vh] lg:h-[85vh] overflow-hidden rounded-2xl '>
-                <img src={assets.header_img} alt="" className='absolute inset-0  object-cover  h-full w-full lg:px-36 ' />
-                {/* <div className="absolute inset-0 bg-black/40 sm:rounded-xl z-10"></div> */}
+            <div className='relative  mt-5 w-full h-[60vh] sm:h-[60vh] md:h-[75vh] lg:h-[85vh] overflow-hidden rounded-2xl '>
+                <img src="/Banner.png" alt="" className='absolute inset-0  object-cover  h-full w-full  ' />
+                <div className="absolute inset-0 bg-orange-900/50 sm:rounded-xl z-10 "></div>
                 <div className="absolute z-10 w-full md:w-auto
                 px-6 sm:px-10 md:px-0
                 flex flex-col

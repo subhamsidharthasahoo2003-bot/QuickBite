@@ -5,7 +5,7 @@ const ExpMenu = ({ category, setCategory }) => {
 
   return (
     <>
-      <div className='flex flex-col gap-4 mt-5 lg:px-36 sm:px-8 md:px-16  ' id='explore-menu'>
+      <div className='flex flex-col gap-4 mt-5  sm:px-8 md:px-16  ' id='explore-menu'>
         <h1 className='text-3xl font-semibold'>Explore our menu</h1>
         <p className='max-w-full sm:max-w-[80%] md:max-[60%]: text-black font-semibold'>Choose from a diverse menu featureing a delectable array of dishes. Our mission is to satisfy your <br />cravings and elevate your dining experience, one delicious meal at a time.</p>
         <div className='flex justify-between items-center gap-6 text-center my-[20px] overflow-x-auto scroll-smooth'>
